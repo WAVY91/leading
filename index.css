@@ -301,6 +301,16 @@
     font-size: 15px;
     font-weight: 600;
 }
+.isaac button:hover{
+    background-color: white;
+    color: #0087db;
+    border: 3px solid #0087db;
+}
+.mom button:hover{
+    background-color: white;
+    color: #0087db;
+    border: 3px solid #0087db;
+}
 .mom button{
     background-color: #0087db;
     color: white;
@@ -375,6 +385,10 @@
     width: 200px;
     height: 40px;
     margin-top: 10px;
+}
+.jj button:hover{
+    color: white;
+    cursor: pointer;
 }
 .ct {
     padding-bottom: 50px;
@@ -1179,7 +1193,228 @@
     margin-top: 140px;
     margin-bottom: 80px;
 }
+.coat img{
+    width: 3.5%;
+}
+.coatt img{
+    width: 100%;
+}
+.coats button{
+    border: none;
+    background-color: #0087db;
+    color: white;
+    width: 180px;
+    height: 45px;
+    text-decoration: underline;
+    font-size: 22px;
+    font-weight: 700;
+}
+.horn h3{
+    font-size: 32px;
+    color: #0087db;
+    font-weight: 700;
+    padding-top: 100px;
+}
+.doom h4{
+    color: #0087db;
+    padding-top: 100px;
+    font-size: 30px;
+    font-family: 700;
+    padding-bottom: 10px
+}
+.doom p{
+    font-size: 15px;
+}
+.lud video{
+    width: 100%;
+    height: 400px;
+    margin-top: -50px;
+}
+.lud h2{
+    padding-top: 70px;
+    padding-left: 150px;
+    color: #0087db;
+    font-size: 35px;
+    font-weight: 700;
+}
+.pant{
+    background-image: url(IMAGES/see\ all\ bg.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.pant h3{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 190px;
+    padding-bottom: 70px;
+    padding-left: 200px;
+}
+.wire img{
+    width: 45%;
+    margin-top: 80px;
+    margin-left: 280px;
+    margin-bottom: 20px;
+}
+.wire a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 280px;
+}
+.fire img{
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.fire a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+.view{
+    background-image: url(./IMAGES/view\ bg.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.view h4{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 320px;
+    padding-bottom: 70px;
+    padding-left: 100px;
+}
+.slay h3{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 15px;
+}
+.slay p{
+    text-align: center;
+    font-weight: 600;
+}
+.well h3{
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.well h5{
+    color: blueviolet;
+    font-weight: 500;
+    font-size: 15px;
+    padding-bottom: 40px;
+}
+.well a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+}
+.well img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.wella {
+    background-color: #EEEEEE;
+    height: 320px;
+    border-radius: 15px;
+}
+.wella p{
+    padding-top: 20px;
+}
+.ment img{
+    width: 13%;
+    float: right;
+    margin-top: -23px;
+}
 @media (max-width:430px){
+     .pant h3{
+        margin: 0;
+        padding: 0;
+        margin-top: 40px;
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+    .wire a{
+        margin: 0;
+        padding: 0;
+    }
+    .wire img{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        margin-top: 80px;
+        margin-bottom: 20px;
+    }
+    .view h4{
+        margin: 0;
+        margin-top: 40px;
+        padding: 0;
+        padding-top: 200px;
+        padding-bottom: 180px;
+    }
+    .slay h3{
+        font-size: 25px;
+        padding: 0;
+        padding-top: 80px;
+    }
+    .slay p{
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .well h3{
+        margin: 0;
+        padding: 0;
+        font-size: 23px;
+        padding-top: 90px;
+        padding-bottom: 20px;
+    }
+    .well h5{
+        margin: 0;
+        padding: 0;
+        padding-bottom: 20px;
+        font-size: 13px;
+    }
+    .well img{
+        width: 100%;
+        padding: 1%;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    .wella{
+        height: 300px;
+    }
+    .horn h3{
+        font-size: 18px;
+    }
+    .lud h2{
+        margin: 0;
+        padding: 0;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        font-size: 18px;
+    }
+    .lud video{
+        margin: 0;
+        margin-top: -95px;
+    }
+    .doom h4{
+        font-size: 20px;
+        margin: 0;
+        margin-top: -40px;
+    }
     .soap{
         margin: 0;
         padding: 0;
@@ -1671,6 +1906,7 @@
         float: right;
         margin-top: 15px;
         margin-bottom: 15px;
+        width: 250px;
     }
     .kokk img{
         margin-top: 30px;
@@ -1876,6 +2112,72 @@
 }
 }
 @media (min-width:431px) and (max-width:767px){
+    .pant h3{
+        margin: 0;
+        padding: 0;
+        margin-top: 40px;
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+    .wire img{
+        width: 100%;
+        margin: 0;
+        margin-top: 120px;
+        margin-bottom: 20px;
+    }
+    .wire a{
+        margin: 0;
+        padding: 0;
+    }
+    .view h4{
+        margin: 0;
+        margin-top: 40px;
+        padding: 0;
+        padding-top: 200px;
+        padding-bottom: 120px;
+    }
+    .slay h3{
+        font-size: 33px;
+        padding: 0;
+        padding-top: 80px;
+    }
+    .well h3{
+        margin: 0;
+        padding: 0;
+        font-size: 33px;
+        padding-top: 90px;
+        padding-bottom: 20px;
+    }
+    .well h5{
+        margin: 0;
+        padding: 0;
+        padding-bottom: 20px;
+    }
+    .well img{
+        width: 100%;
+        padding: 1%;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    .wella{
+        height: 400px;
+    }
+    .horn h3{
+        font-size: 25px;
+    }
+    .coat img{
+        width: 2.5%;
+    }
+    .lud h2{
+        margin: 0;
+        padding: 0;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        font-size: 25px;
+    }
+    .lud video{
+        margin: 0;
+    }
     .soap{
         margin: 0;
         padding: 0;
@@ -2522,6 +2824,59 @@
 }
 }
 @media (min-width:768px) and (max-width:1023px){
+    .pant h3{
+        margin: 0;
+        padding: 0;
+        margin-top: 40px;
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+    .wire img{
+        margin: 0;
+        padding: 0;
+        margin-top: 90px;
+        margin-left: 270px;
+        margin-bottom: 20px;
+    }
+    .ment img{
+        width: 20%;
+        margin: 0;
+        margin-top: -45px;
+    }
+     .view h4{
+        margin: 0;
+        margin-top: 40px;
+        padding: 0;
+        padding-top: 200px;
+        padding-bottom: 120px;
+    }
+    .slay h3{
+        font-size: 33px;
+    }
+    .well h3{
+        font-size: 33px;
+        margin: 0;
+        padding: 0;
+        margin-top: 70px;
+        padding-bottom: 20px;
+    }
+    .wella{
+        height: 300px;
+    }
+    .wella p{
+        padding-top: 20px;
+    }
+     .lud h2{
+        margin: 0;
+        padding: 0;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        font-size: 28px;
+    }
+    .lud video{
+        margin: 0;
+        margin-top: -115px;
+    }
     .soap{
         margin: 0;
         padding: 0;
